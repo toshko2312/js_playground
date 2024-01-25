@@ -1,0 +1,14 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 130%;
+}
+
+#subscribeContainer > * {
+  display: inline;
+  margin-bottom: 20px;
+}
+
+#mySubmit {
+  font-size: 1em;
+  margin-top: 20px;
+}

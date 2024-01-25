@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+  </head>
+  <body>
+    <div id="subscribeContainer">
+      <label for="myCheckBox">Subscribe</label>
+      <input type="checkbox" name="subscribe" id="myCheckBox" /><br />
+    </div>
+
+    <div id="paymentContainer">
+      <label for="visaBtn">Visa</label>
+      <input type="radio" name="card" id="visaBtn" /><br />
+      <label for="masterCardBtn">MasterCard</label>
+      <input type="radio" name="card" id="masterCardBtn" /><br />
+      <label for="payPalBtn">PayPal</label>
+      <input type="radio" name="card" id="payPalBtn" /><br />
+    </div>
+
+    <button type="submit" id="mySubmit">submit</button>
+
+    <p id="subResult"></p>
+    <p id="paymentResult"></p>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
