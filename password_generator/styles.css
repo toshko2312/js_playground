@@ -1,0 +1,25 @@
+#container {
+	text-align: center;
+}
+
+button {
+	margin-top: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.2em;
+}
+
+label {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.2em;
+}
+
+input {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	margin: 5px;
+}
+
+p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.4em;
+}
