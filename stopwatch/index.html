@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Stopwatch</title>
+		<link rel="stylesheet" href="style.css" type="text/css" />
+	</head>
+	<body>
+		<div id="container">
+			<h1>Stopwatch</h1>
+			<div id="border">
+				<div id="display">00:00:00:00</div>
+				<div id="controls">
+					<button id="btn-start" class="pushable" onclick="start()">
+						<span class="shadow"></span>
+						<span class="edge"></span>
+						<span class="front"> Start </span>
+					</button>
+					<button id="btn-stop" class="pushable" onclick="stop()">
+						<span class="shadow"></span>
+						<span class="edge"></span>
+						<span class="front"> Stop </span>
+					</button>
+					<button id="btn-reset" class="pushable" onclick="reset()">
+						<span class="shadow"></span>
+						<span class="edge"></span>
+						<span class="front"> Reset </span>
+					</button>
+				</div>
+			</div>
+		</div>
+
+		<script src="./index.js"></script>
+	</body>
+</html>
