@@ -81,8 +81,8 @@ select {
 
 .card {
 	box-sizing: border-box;
-	width: 58vh;
-	height: 36vh;
+	width: 57dvh;
+	height: 36dvh;
   background-image: linear-gradient(to top, #cfd9dfc7 0%, #e2ebf0c7 100%);  
   border: 1px solid #222831;
 	box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
@@ -92,7 +92,7 @@ select {
 	display: flex;
 	user-select: none;
 	color: black;
-	margin: 3vh 5vh 3vh 5.5vh;
+	margin: 3vh 1vh 3vh 2vh;
 }
 
 .card:hover {
