@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./shared/navbar.css" />
+		<link
+			rel="stylesheet"
+			href="./features/movie-listings/movie-listings.css"
+		/>
+		<title>Movies</title>
+	</head>
+	<body>
+		<header>
+			<div class="navbar-container">
+				<div class="logo-container">
+					<a href="index.html">
+						<img src="./assets/images/logo.png" alt="logo" />
+					</a>
+				</div>
+				<nav class="navbar">
+					<ul>
+						<li><a href="./index.html">Movies</a></li>
+						<li id="profile"><a href="./features/profile/profile.html">Profile</a></li>
+						<li><a id="login/logout" href="">Login</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="search-container">
+				<input type="search" placeholder="Search for a movie" id="search" />
+			</div>
+		</header>
+
+		<main>
+			<div id="sorting-container">
+				<select name="category" id="category" class="sorting">
+					<option value="" disabled selected>Category</option>
+					<option value="">All</option>
+				</select>
+
+				<select name="sort-by" id="sort-by" class="sorting">
+					<option value="popularity.desc" disabled selected>Sort By</option>
+					<option value="popularity.desc">Popularity</option>
+					<option value="vote_average.desc">Rating</option>
+					<option value="vote_count.desc">Votes</option>
+					<option value="primary_release_date.desc">Date</option>
+				</select>
+			</div>
+
+			<div id="movie-container"></div>
+		</main>
+		<footer>
+			<div id="load-more">
+				<button id="btn-load">Load More</button>
+			</div>
+		</footer>
+
+		<script type="module" src="../dist/features/authentication/authentication.js"></script>
+		<script
+			type="module"
+			src="../dist/features/movie-listings/movie-listings.js"
+		></script>
+	</body>
+</html>

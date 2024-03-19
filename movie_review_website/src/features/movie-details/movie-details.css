@@ -1,0 +1,404 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#container {
+  display: flex;
+  margin: 5vh 12vh 0 12vh;
+  justify-content: space-between;
+  height: 82vh;
+}
+
+#movie-details-container {
+  display: flex;
+  flex-direction: column;
+  width: 76%;
+  border: 1px solid rgb(65, 65, 65);
+  background-color: rgb(32, 32, 32);
+  margin-left: 2vh;
+}
+
+#similar-movies-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid rgb(65, 65, 65);
+  background-color: rgb(32, 32, 32);
+  width: 20%;
+  margin-right: 2vh;
+  overflow: auto;
+  scrollbar-width: thin;
+}
+
+#movie-title {
+  margin: 1vh 0 0 2vh;
+  font-size: 2em;
+}
+
+#mid-section {
+  display: flex;
+  padding: 2vh 2vh 0 2vh;
+}
+
+#image {
+  height: 50vh;
+  border-radius: 4px;
+}
+
+#movie-details {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+#movie-info-container {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 1.75vh;
+}
+
+.movie-info {
+  display: inline;
+  margin: 0 0 0.25vh 0vh;
+  font-size: 1.2em;
+}
+
+#rate {
+  display: inline-flex;
+  font-size: 1.25em;
+  color: rgb(129, 129, 255);
+  position: absolute;
+  margin-left: 0.75vh;
+  cursor: pointer;
+}
+
+#rate:hover {
+  background-color: #f8f7f829;
+}
+
+#rate svg {
+  position: relative;
+  fill: rgb(32, 32, 32);
+  stroke: rgb(129, 129, 255);
+  stroke-width: 4vh;
+  margin-right: 0.75vh;
+}
+
+#rating-container {
+  display: flex;
+  align-items: center;
+}
+
+#rating {
+  font-size: 2.5em;
+  margin: 0;
+  padding: 1.25vh;
+  border: 1px solid gray;
+  background-color: #aa0028c9;
+  box-shadow: 0 2px 1px 0 rgba(0,0,0,.25);
+  border: 1px solid rgb(65, 65, 65);
+  border-radius: 4px;
+  color: hsl(0, 0%, 90%);
+}
+
+#overview {
+  font-size: 1.3em;
+  margin: 4vh 0 0 1.75vh;
+  width: 95%;
+  hyphens: auto;
+}
+
+#movie-footer {
+  display: flex;
+}
+
+#movie-footer p {
+  margin: 0 0 1vh 0;
+}
+
+#movie-footer-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 0.75vh;
+  width: 31vh;
+  padding: 2vh 2vh 2vh 2vh;
+}
+
+#movie-footer-left div {
+  margin-bottom: 0.5vh;
+}
+
+#original-title {
+  margin-left: 1.75vh;
+  margin-top: 3vh;
+  font-size: 1.2em;
+}
+
+#alternative-title {
+  margin-left: 1.75vh;
+  margin-top: 0.25vh;
+  font-size: 1.2em;
+}
+
+.trailer-btn {
+  align-self: center;
+}
+
+#similar-movies-banner {
+  font-size: 1.5em;
+  margin-bottom: 1.75vh;
+  margin-top: 1vh;
+}
+
+.similar-movies-card {
+  display: flex;
+  width: 90%;
+  margin-bottom: 2vh;
+  background: rgba(255, 255, 255, 0.57);
+  box-shadow: 0 0 10px rgba(126, 126, 126, 0.575);
+  backdrop-filter: blur(10px);
+	border-radius: 17px;
+	transition: all 0.5s;
+  user-select: none;
+	color: black;
+  font-size: 1.1em;
+}
+
+.similar-movies-card:hover {
+  outline: #c7002e74 1px solid;
+  box-shadow: 0px 0px 20px 1px #c7002fc9;
+}
+
+.similar-movies-img-container img {
+  height: 15vh;
+  padding: 1vh 1vh 0.25vh 1vh;
+}
+
+.similar-movies-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 2vh;
+}
+
+.similar-movies-title-container {
+  margin-top: 2vh;
+}
+
+.category-name {
+  margin-left: 14vh;
+  margin-bottom: 1vh;
+  font-size: 2em;
+}
+
+.box-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0 14vh 0 14vh;
+  border: 1px solid rgb(65, 65, 65);
+  background-color: rgb(32, 32, 32);
+  height: 75vh;
+  overflow: auto;
+  scrollbar-width: thin;
+  scroll-behavior: smooth;
+}
+
+.cast-card {
+  display: flex;
+  border: 1px solid gray;
+  width: 40vh;
+  margin: 2vh;
+}
+
+.cast-details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 3vh;
+  gap: 5vh;
+}
+
+.cast-card img {
+  height: 20vh;
+}
+
+.cast-image-container {
+  display: flex;
+  margin-right: 1vh;
+}
+
+#review-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 14vh 0 14vh;
+  padding: 3vh 0 3vh 0;
+  border: 1px solid rgb(65, 65, 65);
+  background-color: rgb(32, 32, 32);
+  gap: 4vh;
+  font-size: 1.1em;
+}
+
+.review-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid gray;
+  margin: 0 3vh 0 2vh;
+}
+
+.review-header {
+  display: flex;
+}
+
+.review-info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3vh;
+  margin-left: 2vh;
+  margin-top: 2vh;
+}
+
+.review-img-container {
+  align-self: center;
+}
+
+.review-img-container img {
+  margin-left: 2vh;
+  margin-top: 3vh;
+  height: 9vh;
+  width: 9vh;
+}
+
+.review-date-container {
+  display: flex;
+  margin-right: 1vh;
+  flex-grow: 1;
+  justify-content: flex-end;
+}
+
+.review-content {
+  margin-left: 1vh;
+  margin-right: 1vh;
+  font-size: 1.05em;
+  line-height: 1.5;
+}
+
+.inline {
+  display: inline;
+}
+
+#trailer-container {
+  display: flex;
+  align-self: center;
+  position: relative;
+  transition: 200ms ease-in-out;
+}
+
+#trailer-container:hover {
+  outline: #c7002e74 1px solid;
+  box-shadow: 0px 0px 20px 1px #c7002fc9;
+}
+
+.light-button button.bt {
+  position: absolute;
+  left: 0%;
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.light-button button.bt .button-holder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  font-size: 1.25em;
+  font-weight: 700;
+  outline-offset: 20;
+}
+
+.light-button button.bt .button-holder svg {
+  height: 50px;
+  transition: 200ms ease-in-out;
+  fill: #f00;
+  opacity: 0;
+}
+
+.light-button button.bt:hover .button-holder svg {
+  opacity: 1;
+}
+
+
+@media (max-width: 646px) {
+  #container {
+    flex-direction: column;
+    margin: 0;
+    margin-right: 2vh;
+    height: auto;
+    gap: 2vh;
+  }
+
+  #profile-container {
+    flex-direction: column;
+  }
+
+  #movie-details-container {
+    width: auto;
+    flex-direction: column;
+  }
+
+  #movie-info-container {
+    margin-top: 2vh;
+  }
+
+  #mid-section {
+    flex-direction: column;
+  }
+
+  #similar-movies-container {
+    width: auto;
+    margin-left: 2vh;
+    margin-right: 0;
+    height: 80dvh;
+  }
+
+  .category-name {
+    margin-left: 2vh;
+  }
+
+  .box-container {
+    margin: 0 2vh 0 2vh;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 72dvh;
+  }
+
+  .cast-card {
+    width: auto;
+  }
+
+  #review-container {
+    margin: 0 2vh 0 2vh;
+  }
+
+  .review-card {
+    margin: 0 1vh 0 1vh;
+    height: 60dvh;
+    overflow: auto;
+    hyphens: auto;
+  }
+
+  .popout-visible {
+    width: 20dvh !important;
+  }
+}
