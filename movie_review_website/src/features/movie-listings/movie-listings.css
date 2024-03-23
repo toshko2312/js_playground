@@ -78,7 +78,7 @@ select {
 	flex-wrap: wrap;
 	justify-content: flex-start;
 	column-gap: 3vh;
-	margin: 0 2vh 0 2vh;
+	margin: 0 3vh 0 3vh;
 }
 
 .card {
