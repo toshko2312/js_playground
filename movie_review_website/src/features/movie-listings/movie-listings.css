@@ -77,7 +77,8 @@ select {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: flex-start;
-	column-gap: 2vh;
+	column-gap: 3vh;
+	margin: 0 2vh 0 2vh;
 }
 
 .card {
@@ -93,7 +94,7 @@ select {
 	display: flex;
 	user-select: none;
 	color: black;
-	margin: 3vh 1vh 3vh 2vh;
+	margin: 3vh 0h 3vh 0;
 }
 
 .card:hover {
