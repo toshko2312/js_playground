@@ -89,6 +89,7 @@ select {
 .card {
 	box-sizing: border-box;
 	width: 55dvh;
+	max-width: 65dvh;
 	height: 36dvh;
   background-image: linear-gradient(to top, #cfd9dfc7 0%, #e2ebf0c7 100%);  
   border: 1px solid #222831;
