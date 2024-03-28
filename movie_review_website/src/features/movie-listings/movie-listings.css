@@ -66,8 +66,13 @@ select {
 }
 
 @media (max-width: 646px) {
+	#sorting-container {
+		justify-content: center;
+		gap: 1vh;
+	}
+
   .sorting {
-    margin: 1.5vh 4vh 0 0;
+    margin: 1.5vh 0 0 0;
   }
 }
 
