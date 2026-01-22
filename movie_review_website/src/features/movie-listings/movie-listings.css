@@ -66,8 +66,13 @@ select {
 }
 
 @media (max-width: 646px) {
+	#sorting-container {
+		justify-content: center;
+		gap: 1vh;
+	}
+
   .sorting {
-    margin: 1.5vh 4vh 0 0;
+    margin: 1.5vh 0 0 0;
   }
 }
 
@@ -77,12 +82,15 @@ select {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: flex-start;
+	column-gap: 3vh;
+	margin: 0 3vh 0 3vh;
 }
 
 .card {
 	box-sizing: border-box;
-	width: 58vh;
-	height: 36vh;
+	width: 55dvh;
+	max-width: 60dvh;
+	height: 36dvh;
   background-image: linear-gradient(to top, #cfd9dfc7 0%, #e2ebf0c7 100%);  
   border: 1px solid #222831;
 	box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
@@ -92,7 +100,8 @@ select {
 	display: flex;
 	user-select: none;
 	color: black;
-	margin: 3vh 5vh 3vh 5.5vh;
+	margin: 3vh 0 3vh 0;
+	flex-grow: 1;
 }
 
 .card:hover {

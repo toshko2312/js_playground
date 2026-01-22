@@ -6,7 +6,7 @@ export const CONSTANTS = {
   GENRES_URL: "https://api.themoviedb.org/3/genre/movie/list?language=en",
 	SEARCH_MOVIE_URL: "https://api.themoviedb.org/3/search/movie",
   IMAGE_URL: 'https://image.tmdb.org/t/p/w500',
-  MOVIE_DETAILS_APP_URL: 'http://127.0.0.1:5500/src/features/movie-details/movie-details.html',
+  MOVIE_DETAILS_APP_URL: 'https://movie-reviews-ruddy.vercel.app/src/features/movie-details/movie-details.html',
   TRAILER_URL: 'https://www.youtube.com/watch?v=',
   PROFILE_URL: 'https://api.themoviedb.org/3/account',
   STAR_SVG: `<svg
